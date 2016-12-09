@@ -1,0 +1,20 @@
+#title{color: red;text-align: center;font-weight:bold;}
+a:link{color: blue}
+a:visited{color: grey}
+a{font-size: 20pt}
+
+#menu{text-indent:30px}
+span.exp{color: red}
+
+
+div{float: left;}
+div#xuanzeqi{clear: left;}
+div#danwei{position:relative;left: 100px}
+div#biankuang{clear: left;}
+div#box{position:relative;left: 100px}
+div#beijing{clear: left;}
+div#wenben{position:relative;left: 100px}
+div#biaoge{clear: left;}
+div#liebiao{position:relative;left: 100px}
+div#buju{clear: left;}
+div#dingwei{position:relative;left: 100px}

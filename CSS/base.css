@@ -1,0 +1,23 @@
+h2{color: silver;text-indent: 10px}
+h2.aaa{color: #6ff} 
+#img{color: rgb(200,100,200);}
+.unorderlist{background-color: silver}
+li{background-color: #6f5;margin: 10px;padding: 10px}
+ul li{color: red}
+ol li{color: #fad;text-decoration: line-through;}
+ol{background-image: url(file:///C:/Users/Public/Pictures/Sample%20Pictures/Koala.jpg);background-repeat: repeat;}
+#wenbenid{color: black}
+#wenbenid{color: red}
+
+#titleid{color: red;text-align: center;font-weight: bold;}
+
+
+a:link{color: blue}
+a:active{color: yellow}
+a:visited{color:grey;}
+a:hover{color: red}
+a:focus{color: black}
+
+h2:hover{color: red}
+input:focus{background-color: red}
+

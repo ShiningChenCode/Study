@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS 学习笔记</title>
+	<link rel="stylesheet" type="text/css" href="base1.css">
+</head>
+<body>
+<h1 id="title">CSS 学习笔记</h1> 
+
+ 
+<div id="menu">
+<h2>目录</h2>
+	<ul id="ulmenu" >
+		<li><a href="#yangshibiao">CSS样式表</a></li> 
+		<li><a href="#xuanzeqi">CSS选择器</a></li> 
+		<li><a href="#danwei">CSS单位</a></li> 
+		<li><a href="#biankuang">边框样式</a></li> 
+		<li><a href="#box">框模型</a></li> 
+		<li><a href="#beijing">背景样式</a></li> 
+		<li><a href="#wenben">文本样式</a></li> 
+		<li><a href="#biaoge">表格样式</a></li> 
+		<li><a href="#liebiao">列表样式</a></li> 
+		<li><a href="#buju">布局</a></li> 
+		<li><a href="#dingwei">定位</a></li>  
+
+
+	</ul>
+ 
+<div id="yangshibiao">
+	<a name="yangshibiao"></a><h1>CSS样式表</h1>
+			<ol>
+				<li>内联样式：将样式定义在元素的style属性里面，没有重用性</li>
+				<li>内部样式表：将样式定义在head里面的style中，仅限当前文档重用</li>
+				<li>外部样式表：讲样式定义在一个单独.css文件里面，再在head中引入该文件。
+				实现数据与表现分离</li>
+			</ol>
+
+</div>
+<div id="xuanzeqi">
+	<a name="xuanzeqi"></a><h1>CSS选择器</h1>
+		<ul>
+		<li>元素选择器 <span class="exp">h1</span></li> 
+		<li>类选择器 <span class="exp">.className</span></li>  
+		<li>分类选择器 <span class="exp">h1.className</span></li>  
+		<li>元素id选择器 <span class="exp">#myid</span></li>  
+		<li>派生选择器 <span class="exp">h1 span</span></li>   
+		<li>选择器分组 <span class="exp">h1,h2,span</span></li>  
+		<li>伪类选择器 
+		<ul>
+			<li>:link 未访问过的链接</li>
+			<li>:visited 访问过的链接</li>
+			<li>:hover 悬停</li>
+			<li>:active 激活</li>
+			<li>:focus 获取焦点</li>
+
+
+		</ul>
+
+		</li>   
+
+
+	</ul>
+</div>
+<div id="danwei">
+	<a name="danwei"></a><h1>CSS单位</h1>
+		<ul>
+		<li>尺寸： <span class="exp">%  in  cm  mm  pt  px  em </span></li> 
+ 	<li>颜色 <span class="exp">rgb(x,x,x)   rgb(x%,x%,x%)   #rrggbb   #rgb</span></li> 
+ 		<li>尺寸属性： <span class="exp">width  height   overflow</span></li> 
+		</ul>
+</div>
+<div id="biankuang">
+	<a name="biankuang"></a><h1>边框样式</h1>
+	border:width style color<br>
+	按边 border-left/right/top/bottom<br>
+</div>
+<div id="box">
+	<a name="box"></a><h1>框模型</h1>
+	width  height <br>
+	内边距：padding<br>
+	外边距: margin<br>
+</div>
+<div id="beijing">
+	<a name="beijing"></a><h1>背景样式</h1>
+	background-color<br>
+	background-image<br>
+	background-repeat<br>
+	background-attachment<br>
+	background-position<br>
+
+</div>
+<div id="wenben">
+	<a name="wenben"></a><h1>文本样式</h1>
+	字体:font-family:name<br>
+	字体颜色： color<br>
+	字体大小：font-size<br>
+	字体加粗：font-weight<br>
+	文本排列： text-align:left/right/center/jusitfy<br>
+	行高：line-height<br>
+	文字修饰：text-decoration:none/underline/blink/overline/line-through<br>
+	文本缩进：text-indent<br>
+</div>
+<div id="biaoge">
+	<a name="biaoge"></a><h1>表格样式</h1>
+	垂直对齐:vertical-align<br>
+	边框合并：border-collapse<br>
+	边框边距：border-spacing<br>
+</div>
+<div id="liebiao">
+	<a name="liebiao"></a><h1>列表样式</h1>
+	列表项标识符号：list-style-image:none/url(url)<br>
+	预设标识符号：list-style-type:disc/circle/square/decimal/none<br>
+</div>
+<div id="buju">
+	<a name="buju"></a><h1>布局</h1>
+	 float<br>
+	 clear<br>
+	 display<br>
+
+
+</div>
+<div id="dingwei">
+	<a name="dingwei"></a><h1>定位</h1>
+	position<br>
+	z-index<br>
+	relative<br>
+	absolute<br>
+</div>
+
+
+
+</body>
+</html>
